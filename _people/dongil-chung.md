@@ -4,7 +4,7 @@ title: Dongil Chung
 name: Dongil Chung
 role: Principal Investigator
 affiliation: Department of Brain & Cognitive Sciences, Seoul National University
-email: dchung@snu.ac.kr
+email: dongilchung@snu.ac.kr
 status: current
 order: 1
 ---
