@@ -1,0 +1,14 @@
+title: "Decision Neuroscience & Cognitive Engineering Lab"
+markdown: kramdown
+collections:
+  people:
+    output: true
+    permalink: /people/:name/
+  publications:
+    output: true
+    permalink: /publications/:name/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

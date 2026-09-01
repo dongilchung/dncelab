@@ -1,0 +1,5 @@
+---
+layout: default
+title: Home
+---
+<div class="hero"><section><div class="meta">DECISION NEUROSCIENCE &amp; COGNITIVE ENGINEERING LAB</div><h1>Understanding how people value, learn, and decide.</h1><p class="lead">Our lab studies the neural and psychological foundations of valuation and decision-making, focusing on value-based and social decision-making and abnormalities of decision-making in psychopathology.</p><p>We integrate behavioral economics, neuroimaging, decision neuroscience, social psychology, computational modeling, and machine learning to understand how the brain processes social and non-social information.</p></section><aside class="box"><b>Latest news</b>{% assign news=site.posts|sort:'date'|reverse %}{% for post in news limit:3 %}<div class="news"><div class="date">{{post.date|date:'%Y.%m.%d'}}</div><a href="{{post.url|relative_url}}"><b>{{post.title}}</b></a></div>{% endfor %}<p><a href="{{'/news/'|relative_url}}">View all news →</a></p></aside></div><h2>Follow the lab</h2><a class="twitter-timeline" data-height="500" href="https://x.com/dongilchung?ref_src=twsrc%5Etfw">Posts by Dongil Chung</a>
