@@ -3,28 +3,28 @@
   affiliation: "Department of Brain & Cognitive Sciences, Seoul National University"
   email: "dongilchung@snu.ac.kr"
   order: 1
-  image: "/assets/images/dongil-chung.jpg"
+  image: "/assets/images/people/dongil-chung.jpg"
 - name: "Minho Hwang"
   role: "Postdoctoral Associate"
   affiliation: "Department of Biomedical Engineering, UNIST"
   email: "rennywhite@unist.ac.kr"
   order: 2
-  image: "/assets/images/minho-hwang.png"
+  image: "/assets/images/people/minho-hwang.png"
 - name: "Jiwon Park"
   role: "Postdoctoral Associate"
   affiliation: "Department of Biomedical Engineering, UNIST"
   email: "jione@unist.ac.kr"
   order: 3
-  image: "/assets/images/jiwon-park.png"
+  image: "/assets/images/people/jiwon-park.png"
 - name: "Sunmin Kim"
   role: "Graduate Student"
   affiliation: "Department of Biomedical Engineering, UNIST"
   email: "tnsals0816@unist.ac.kr"
   order: 4
-  image: "/assets/images/sunmin-kim.jpg"
+  image: "/assets/images/people/sunmin-kim.jpg"
 - name: "Minjae Kim"
   role: "Graduate Student"
   affiliation: "Department of Biomedical Engineering, UNIST"
   email: "minjae18@unist.ac.kr"
   order: 5
-  image: "/assets/images/minjae-kim.jpg"
+  image: "/assets/images/people/minjae-kim.jpg"
