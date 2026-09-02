@@ -8,7 +8,7 @@ permalink: /
 </div>
 
 <h1>News</h1>
-<div class="news-list">
+
 {% assign news = site.data.news | sort: 'date' | reverse %}
 {% for item in news limit:3 %}
 <article class="news">
@@ -17,4 +17,7 @@ permalink: /
   <div class="news-content">{{ item.content | markdownify }}</div>
 </article>
 {% endfor %}
-</div>
+
+<p class="news-more">
+  <a href="{{ '/news/' | relative_url }}">View all news →</a>
+</p>
