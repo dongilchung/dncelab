@@ -27,7 +27,7 @@ h2{font-size:22px;margin-top:42px}
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 .card{border-top:2px solid #111;padding:15px 0}
 .research-content{max-width:100%}
-.research-image-wrap{width:100%;margin-top:34px;overflow:hidden}
+.research-image-wrap{width:70%;margin-top:34px;overflow:hidden}
 .research-image{display:block;width:100%;max-width: 500px; height:auto;object-fit:cover}
 .map-container{margin-top:30px;width:100%;overflow:hidden}
 .map-container iframe{display:block;width:100%;border:0}
