@@ -16,7 +16,7 @@ permalink: /contact/
 <p>email: <a href="mailto:dncelab@gmail.com">dncelab@gmail.com</a></p>
 
 <div class="map-container">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357ca1e06c65bebb%3A0xd1c59fd3639257a9!2z7ISc7Jq464yA7ZWZ6rWQIDIyMOuPmSDsooXtlanqtZDsnKHsl7Dqtazrj5k!5e0!3m2!1sen!2skr!4v1788335504949!5m2!1sen!2skr" 
+  <iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357ca1e06c65bebb%3A0xd1c59fd3639257a9!2z7ISc7Jq464yA7ZWZ6rWQIDIyMOuPmSDsooXtlanqtZDsnKHsl7Dqtazrj5k!5e0!3m2!1sen!2skr!4v1788335504949!5m2!1sen!2skr"
     height="420"
     loading="lazy"
     referrerpolicy="no-referrer-when-downgrade"
