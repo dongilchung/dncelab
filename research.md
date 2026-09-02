@@ -17,7 +17,7 @@ permalink: /research/
     </div>
   </div>
   <div class="research-image-wrap">
-    <img class="research-image" src="{{ '/assets/images/assets/images/research.avif' | relative_url }}" alt="Research in the DNCE Lab">
+    <img class="research-image" src="{{ '/assets/images/research.avif' | relative_url }}" alt="Research in the DNCE Lab">
   </div>
 </div>
 
