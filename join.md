@@ -8,8 +8,8 @@ permalink: /join/
 <p>Currently, we are recruiting <a href="#graduate">graduate students</a> and <a href="#undergraduate">undergraduate research interns</a>.</p>
 <p>Please see below for details.</p>
 
-<h2 id="graduate"><a href="https://379c65a2-310c-4018-b092-187cb2537d48.filesusr.com/ugd/0b9a71_06d6d53777814e6bab05a9976149baa5.pdf" target="_blank" rel="noopener">Graduate Students</a></h2>
-<p>The <strong>Decision Neuroscience &amp; Cognitive Engineering Lab</strong> (PI: Dongil Chung; <a href="https://chungdongil.wixsite.com/dncelab">dnce.unist.ac.kr</a>) is recruiting graduate students in decision neuroscience and computational psychiatry with an emphasis on functional neuroimaging and computational modeling. Ideal candidates will be interested in studying human value-based and/or social decision-making using neuroimaging, computational modeling, Bayesian modeling, and/or machine learning.</p>
+<h2 id="graduate">Graduate Students</h2>
+<p>The <strong>Decision Neuroscience &amp; Cognitive Engineering Lab</strong> (PI: Dongil Chung; <a href="https://dongilchung.github.io/dncelab">dongilchung.github.io/dncelab</a>) is recruiting graduate students in decision neuroscience and computational psychiatry with an emphasis on functional neuroimaging and computational modeling. Ideal candidates will be interested in studying human value-based and/or social decision-making using neuroimaging, computational modeling, Bayesian modeling, and/or machine learning.</p>
 
 <p>A successful candidate will have the opportunity to work on several projects. Specific research topics and training opportunities can be individually tailored. The lab will offer internationally competitive training and research opportunities.</p>
 
@@ -48,4 +48,3 @@ permalink: /join/
 </ul>
 
 <p>Please forward a statement of interest. Please make sure to address your experience and skill set. Consideration of applications will begin immediately. Send inquiries and applications to: Dr. Dongil Chung (<a href="mailto:dongilchung@snu.ac.kr">dongilchung@snu.ac.kr</a>)</p>
-
