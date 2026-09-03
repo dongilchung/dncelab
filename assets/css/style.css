@@ -30,12 +30,12 @@ h2{font-size:22px;margin-top:42px}
 .card{border-top:2px solid #111;padding:15px 0}
 .research-content{max-width:100%}
 .research-image-wrap{width:100%;max-width:800px;margin:36px auto 0;overflow:hidden}
-.research-image{display:block;width:100%;max-width:450px;height:auto}
+.research-image{display:block;width:100%;height:auto}
 .publication-year{margin-top:44px;margin-bottom:0}
-.publication-item{display:flex;gap:22px;border-top:1px solid #ddd;padding:20px 0}
-.publication-thumb{display:block;width:150px;flex:0 0 150px}
-.publication-thumb img{display:block;width:150px;height:110px;object-fit:cover}
-.publication-info{flex:1;min-width:0}
+.publication-item{display:grid;grid-template-columns:100px minmax(0,1fr);column-gap:22px;border-top:1px solid #ddd;padding:20px 0}
+.publication-thumb{width:100px;min-width:100px;align-self:start}
+.publication-thumb img{display:block;width:100%;max-width:100px;height:auto;object-fit:contain}
+.publication-info{min-width:0}
 .pubauthors{margin-top:4px;font-size:13px;line-height:1.5}
 .publication-note{margin-top:40px;font-size:13px;color:#777}
 .map-container{margin-top:30px;width:100%;overflow:hidden}
@@ -50,9 +50,9 @@ footer{border-top:1px solid #ddd;padding-top:22px;padding-bottom:40px;color:#777
   .wrap{padding:0 18px}
   .people,.cards{grid-template-columns:1fr}
   .brand-title{font-size:17px}
-  .publication-item{gap:14px}
-  .publication-thumb{width:110px;flex-basis:110px}
-  .publication-thumb img{width:110px;height:85px}
+  .publication-item{grid-template-columns:100px minmax(0,1fr);column-gap:14px}
+  .publication-thumb{width:100px;min-width:100px}
+  .publication-thumb img{width:100px;max-width:100px;height:auto}
 }
 
 .news-more{margin-top:28px;font-size:14px}
