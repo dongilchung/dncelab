@@ -4,7 +4,7 @@ title: News
 permalink: /
 ---
 <div class="representation-news-wrap">
-  <img class="representation-news" src="{{ '/assets/images/representation-news.png' | relative_url }}" alt="DNCE Lab">
+  <img class="representation-news" src="{{ '/assets/images/representation-news.jpg' | relative_url }}" alt="DNCE Lab">
 </div>
 
 <h1>News</h1>
@@ -18,3 +18,5 @@ permalink: /
 </article>
 {% endfor %}
 </div>
+
+<p class="news-more"><a href="{{ '/news/' | relative_url }}">View all news →</a></p>

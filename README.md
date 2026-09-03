@@ -45,3 +45,6 @@ Publication images are optional. Set the `image` field for any publication to a 
 9. After GitHub Pages rebuilds, check `https://dongilchung.github.io/dncelab/`.
 
 For work on another computer, first use **Fetch origin / Pull origin**, make changes, then commit and push.
+
+
+Publication and People image/social fields may be left empty; empty values are intentionally not rendered.

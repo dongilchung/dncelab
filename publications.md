@@ -10,8 +10,8 @@ permalink: /publications/
 <h2 class="publication-year">{{ year.name }}</h2>
 <div class="publication-list">
 {% for p in year.items %}
-<article class="publication-item{% if p.image %} has-thumbnail{% endif %}">
-  {% if p.image %}
+<article class="publication-item{% if p.image and p.image != "" %} has-thumbnail{% endif %}">
+  {% if p.image and p.image != "" %}
   <a class="publication-thumb" href="{{ p.url }}" target="_blank" rel="noopener">
     <img src="{{ p.image | relative_url }}" alt="Representative figure for {{ p.title }}">
   </a>

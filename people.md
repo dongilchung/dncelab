@@ -16,8 +16,8 @@ permalink: /people/
   <div class="meta">{{ p.affiliation }}</div>
   {% if p.email %}<div class="meta"><a href="mailto:{{ p.email }}">{{ p.email }}</a></div>{% endif %}
   <div class="social-links">
-    {% if p.google_scholar %}<a href="{{ p.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a>{% endif %}
-    {% if p.twitter %}<a href="{{ p.twitter }}" target="_blank" rel="noopener">Twitter</a>{% endif %}
+    {% if p.google_scholar and p.google_scholar != "" %}<a href="{{ p.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a>{% endif %}
+    {% if p.twitter and p.twitter != "" %}<a href="{{ p.twitter }}" target="_blank" rel="noopener">Twitter</a>{% endif %}
   </div>
 </div>
 {% endfor %}
@@ -34,8 +34,8 @@ permalink: /people/
   <div class="meta">{{ p.affiliation }}</div>
   {% if p.email %}<div class="meta"><a href="mailto:{{ p.email }}">{{ p.email }}</a></div>{% endif %}
   <div class="social-links">
-    {% if p.google_scholar %}<a href="{{ p.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a>{% endif %}
-    {% if p.twitter %}<a href="{{ p.twitter }}" target="_blank" rel="noopener">Twitter</a>{% endif %}
+    {% if p.google_scholar and p.google_scholar != "" %}<a href="{{ p.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a>{% endif %}
+    {% if p.twitter and p.twitter != "" %}<a href="{{ p.twitter }}" target="_blank" rel="noopener">Twitter</a>{% endif %}
   </div>
 </div>
 {% endfor %}
