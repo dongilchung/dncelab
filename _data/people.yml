@@ -1,30 +1,193 @@
 - name: "Dongil Chung"
+  category: "principal_investigator"
   role: "Principal Investigator"
   affiliation: "Department of Brain & Cognitive Sciences, Seoul National University"
   email: "dongilchung@snu.ac.kr"
   order: 1
   image: "/assets/images/people/dongil-chung.jpg"
+  google_scholar: ""
+  twitter: ""
+
 - name: "Minho Hwang"
+  category: "lab_member"
   role: "Postdoctoral Associate"
   affiliation: "Department of Biomedical Engineering, UNIST"
   email: "rennywhite@unist.ac.kr"
   order: 2
   image: "/assets/images/people/minho-hwang.png"
+  google_scholar: ""
+  twitter: ""
+
 - name: "Jiwon Park"
+  category: "lab_member"
   role: "Postdoctoral Associate"
   affiliation: "Department of Biomedical Engineering, UNIST"
   email: "jione@unist.ac.kr"
   order: 3
   image: "/assets/images/people/jiwon-park.png"
+  google_scholar: ""
+  twitter: ""
+
 - name: "Sunmin Kim"
+  category: "lab_member"
   role: "Graduate Student"
-  affiliation: "Department of Biomedical Engineering, UNIST"
+  affiliation: "Department of Biomedical Engineering"
   email: "tnsals0816@unist.ac.kr"
   order: 4
   image: "/assets/images/people/sunmin-kim.jpg"
+  google_scholar: ""
+  twitter: ""
+
 - name: "Minjae Kim"
+  category: "lab_member"
   role: "Graduate Student"
-  affiliation: "Department of Biomedical Engineering, UNIST"
+  affiliation: "Department of Biomedical Engineering"
   email: "minjae18@unist.ac.kr"
   order: 5
   image: "/assets/images/people/minjae-kim.jpg"
+  google_scholar: ""
+  twitter: ""
+
+- name: "Dasom Park"
+  category: "alumni"
+  role: "Undergraduate Research Intern"
+  affiliation: "School of Mechanical, Aerospace and Nuclear Engineering"
+  order: 101
+
+- name: "Hyungseok Wok"
+  category: "alumni"
+  role: "Undergraduate Research Intern"
+  affiliation: "School of Electrical & Computer Engineering"
+  order: 102
+
+- name: "Yoo Joo Jeong"
+  category: "alumni"
+  role: "Undergraduate Research Intern"
+  affiliation: "Department of Management"
+  order: 103
+
+- name: "Hyeran Jang"
+  category: "alumni"
+  role: "Postdoctoral Associate"
+  affiliation: "Ph.D., KAIST (2013)"
+  order: 104
+
+- name: "Sumin Kim"
+  category: "alumni"
+  role: "Undergraduate Research Intern"
+  affiliation: "Department of Biological Sciences"
+  order: 105
+
+- name: "Minjae Kim"
+  category: "alumni"
+  role: "Undergraduate Research Intern"
+  affiliation: "Department of Human Factors Engineering"
+  order: 106
+
+- name: "Youngyoon Kim"
+  category: "alumni"
+  role: "Undergraduate Research Intern"
+  affiliation: "Department of Human Factors Engineering"
+  order: 107
+
+- name: "Down Jung"
+  category: "alumni"
+  role: "Undergraduate Research Intern"
+  affiliation: "Department of Finance"
+  order: 108
+
+- name: "Suyeon Kim"
+  category: "alumni"
+  role: "M.S. student"
+  affiliation: "Department of Human Factors Engineering"
+  order: 109
+
+- name: "Woojae Jung"
+  category: "alumni"
+  role: "Undergraduate Research Intern"
+  affiliation: "Department of Biomedical Engineering"
+  order: 110
+
+- name: "Gahyun Lee"
+  category: "alumni"
+  role: "Undergraduate Research Intern"
+  affiliation: "Department of Biomedical Engineering"
+  order: 111
+
+- name: "Hyeji Lee"
+  category: "alumni"
+  role: "Post-Master's Researcher"
+  affiliation: "MA in Education, SNU"
+  order: 112
+
+- name: "Sehyun Lee"
+  category: "alumni"
+  role: "Undergraduate Research Intern"
+  affiliation: "Department of Mechanical Engineering"
+  order: 113
+
+- name: "Sueun Park"
+  category: "alumni"
+  role: "Undergraduate Research Intern"
+  affiliation: "Department of Biomedical Engineering"
+  order: 114
+
+- name: "Heejung Kim"
+  category: "alumni"
+  role: "Undergraduate Research Intern"
+  affiliation: "Department of Biomedical Engineering"
+  order: 115
+
+- name: "Hoyeon Yoon"
+  category: "alumni"
+  role: "Undergraduate Research Intern"
+  affiliation: "Department of Biomedical Engineering"
+  order: 116
+
+- name: "Jaegyeong Kim"
+  category: "alumni"
+  role: "Undergraduate Research Intern"
+  affiliation: "Department of Business Management"
+  order: 117
+
+- name: "Yerin"
+  category: "alumni"
+  role: "Undergraduate Research Intern"
+  affiliation: "Department of Biomedical Engineering"
+  order: 118
+
+- name: "Hüseyin Enes Candan"
+  category: "alumni"
+  role: "Undergraduate Research Intern"
+  affiliation: "Department of Biomedical Engineering"
+  order: 119
+
+- name: "Changhyun Lim"
+  category: "alumni"
+  role: "M.S. (2023)"
+  affiliation: "Department of Biomedical Engineering"
+  order: 120
+
+- name: "Chongwook Chung"
+  category: "alumni"
+  role: "Postdoctoral Associate"
+  affiliation: "Ph.D., KAIST (2019)"
+  order: 121
+
+- name: "Junghoon Ahn"
+  category: "alumni"
+  role: "M.S. (2025)"
+  affiliation: "Department of Biomedical Engineering"
+  order: 122
+
+- name: "Hanjin Park"
+  category: "alumni"
+  role: "Ph.D student"
+  affiliation: "Department of Biomedical Engineering"
+  order: 123
+
+- name: "Heeyoung Seon"
+  category: "alumni"
+  role: "Ph.D. (2024)"
+  affiliation: "Department of Biomedical Engineering"
+  order: 124

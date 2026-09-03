@@ -3,30 +3,27 @@ layout: default
 title: Publications
 permalink: /publications/
 ---
-
 <h1>Publications</h1>
 
-{% assign pubs = site.publications | sort: "year" | reverse %}
-{% assign current_year = "" %}
-
+{% assign pubs_by_year = site.data.publications | group_by: 'year' | sort: 'name' | reverse %}
+{% for year in pubs_by_year %}
+<h2 class="publication-year">{{ year.name }}</h2>
 <div class="publication-list">
-{% for publication in pubs %}
-  {% if publication.year != current_year %}
-    {% assign current_year = publication.year %}
-    <section class="pub-year">
-      <h2 class="year-heading">{{ current_year }}</h2>
+{% for p in year.items %}
+<article class="publication-item{% if p.image %} has-thumbnail{% endif %}">
+  {% if p.image %}
+  <a class="publication-thumb" href="{{ p.url }}" target="_blank" rel="noopener">
+    <img src="{{ p.image | relative_url }}" alt="Representative figure for {{ p.title }}">
+  </a>
   {% endif %}
-
-      <article class="pub">
-        <div class="pub-title"><a href="{{ publication.link }}" target="_blank" rel="noopener">{{ publication.title }}</a></div>
-        <div class="pub-authors">{{ publication.authors }}</div>
-        <div class="pub-meta">{{ publication.venue }}{% if publication.doi %} · <a href="https://doi.org/{{ publication.doi }}" target="_blank" rel="noopener">doi:{{ publication.doi }}</a>{% endif %}</div>
-      </article>
-
-  {% assign next_index = forloop.index0 | plus: 1 %}
-  {% assign next_pub = pubs[next_index] %}
-  {% if next_pub.year != current_year or forloop.last %}
-    </section>
-  {% endif %}
+  <div class="publication-info">
+    <div class="pubtitle"><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a></div>
+    <div class="pubauthors">{{ p.authors }}</div>
+    <div class="meta">{{ p.venue }}{% if p.doi %} · <a href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">doi:{{ p.doi }}</a>{% endif %}</div>
+  </div>
+</article>
 {% endfor %}
 </div>
+{% endfor %}
+
+<p class="publication-note">To add a representative figure, add an image path to the <code>image</code> field for the corresponding publication in <code>_data/publications.yml</code>. Publications without an image automatically use the text-only layout.</p>

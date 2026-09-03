@@ -1,10 +1,10 @@
-# DNCE Lab GitHub Pages update package
+# DNCE Lab website update (v5)
 
-This is an overlay package for the existing `dongilchung/dncelab` repository. Do not delete the existing repository; extract these files into the existing cloned repository and overwrite matching files.
+This is an overlay package for the existing `dongilchung/dncelab` repository. Extract/copy these files into the existing cloned repository; do not delete unrelated existing files such as publications assets, contact/join/links content, or other repository files unless you intend to replace them.
 
-## Image locations
+## Images
 
-Add the real image files yourself:
+Place images at:
 
 - `assets/images/lab-logo.png`
 - `assets/images/research.avif`
@@ -15,24 +15,33 @@ Add the real image files yourself:
 - `assets/images/people/sunmin-kim.jpg`
 - `assets/images/people/minjae-kim.jpg`
 
-## Pages
+## Content data
 
-- `/` is the home/news page and shows the large representation image plus the three newest news items.
-- `/news/` shows all news items.
-- `/research/` uses the Research text from the current Wix site and `research.avif` below it.
-- `/join/` contains the current Wix Join content, internal anchors, email links, and the linked position PDF.
-- `/contact/` contains the current Wix contact information, a Research Participation section, and a Google Maps embed below it.
-- `/people/` is driven by `_data/people.yml`.
-- News is driven by `_data/news.yml`.
+- `_data/news.yml` = news database
+- `_data/people.yml` = people database, including category and optional Google Scholar/Twitter fields
+- `_data/publications.yml` = publications database
 
-## GitHub Desktop workflow
+Publication images are optional. Set the `image` field for any publication to a repository path such as `/assets/images/publications/my-paper.jpg`. The Publications page automatically shows a thumbnail when `image` is present and the normal text-only layout otherwise.
 
-1. Clone `https://github.com/dongilchung/dncelab.git`.
-2. Extract this package into that existing repository folder and overwrite matching files.
-3. Add the real images at the paths above.
-4. Open GitHub Desktop and review Changes.
-5. Commit to `main`.
-6. Click `Push origin`.
-7. Check `https://dongilchung.github.io/dncelab/` after GitHub Pages finishes building.
+## Website behavior
 
-For future updates, edit `_data/news.yml` for News and `_data/people.yml` for People, then commit and push.
+- `/` shows the representation image and the 3 newest news items.
+- `/news/` shows all news from `_data/news.yml`.
+- `/people/` shows Principal Investigator, Lab Members, and Alumni as separate sections.
+- Email addresses are clickable `mailto:` links.
+- Google Scholar/Twitter appear only when the corresponding field in `_data/people.yml` is populated.
+- `/publications/` reads `_data/publications.yml` and groups items by year.
+
+## Upload with GitHub Desktop
+
+1. Open GitHub Desktop and choose **Repository → Show in Finder**.
+2. Extract this ZIP and copy its contents into that existing `dncelab` repository folder.
+3. Add the image files to `assets/images/` and `assets/images/people/` as listed above.
+4. Return to GitHub Desktop.
+5. Review **Changes**.
+6. Enter a commit message such as `Update website content structure`.
+7. Click **Commit to main**.
+8. Click **Push origin**.
+9. After GitHub Pages rebuilds, check `https://dongilchung.github.io/dncelab/`.
+
+For work on another computer, first use **Fetch origin / Pull origin**, make changes, then commit and push.
