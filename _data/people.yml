@@ -5,8 +5,8 @@
   email: "dongilchung@snu.ac.kr"
   order: 1
   image: "/assets/images/people/dongil-chung.jpg"
-  google_scholar: ""
-  twitter: ""
+  google_scholar: "https://scholar.google.com/citations?user=vqSJ1nsAAAAJ&hl=en"
+  twitter: "https://x.com/dongilchung"
 
 - name: "Minho Hwang"
   category: "lab_member"
