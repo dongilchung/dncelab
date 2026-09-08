@@ -54,7 +54,7 @@
   affiliation: "School of Mechanical, Aerospace and Nuclear Engineering"
   order: 101
 
-- name: "Hyungseok Wok"
+- name: "Hyungseok Won"
   category: "alumni"
   role: "Undergraduate Research Intern"
   affiliation: "School of Electrical & Computer Engineering"
@@ -71,18 +71,6 @@
   role: "Postdoctoral Associate"
   affiliation: "Ph.D., KAIST (2013)"
   order: 104
-
-- name: "Sumin Kim"
-  category: "alumni"
-  role: "Undergraduate Research Intern"
-  affiliation: "Department of Biological Sciences"
-  order: 105
-
-- name: "Minjae Kim"
-  category: "alumni"
-  role: "Undergraduate Research Intern"
-  affiliation: "Department of Human Factors Engineering"
-  order: 106
 
 - name: "Youngyoon Kim"
   category: "alumni"
@@ -150,7 +138,7 @@
   affiliation: "Department of Business Management"
   order: 117
 
-- name: "Yerin"
+- name: "Yerin Lee"
   category: "alumni"
   role: "Undergraduate Research Intern"
   affiliation: "Department of Biomedical Engineering"
