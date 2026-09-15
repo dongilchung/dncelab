@@ -27,5 +27,3 @@ permalink: /publications/
 {% endfor %}
 </div>
 {% endfor %}
-
-<p class="publication-note">To add a representative figure, upload the image to <code>assets/images/publication_images/</code> and enter only its filename in the corresponding <code>image</code> field in <code>_data/publications.yml</code>, for example <code>image: "my-paper.jpg"</code>. Leave the field empty when no figure is available.</p>
